@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: 'TradeWinds', sans-serif;
+    src: url("TradeWinds-regular.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'TradeWinds-regular',sans-serif ;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+h1, h2 {
+   color: white;
+   background-color: #1D3557;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+img {
+    width: 200px;
+}
+
+.hero{
+    background-image: url("./images/minnesota.jpg");
+    background-size: cover;
+    padding-bottom: 400px;
+
+}
+
+.activities-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #A8DADC ;
+}
+
+.activities {
+    flex: 1;
+    padding: 15px 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.activities img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.activities p {
+    margin: 0;
+    font-size: 16px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.card {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    background-color: #457B9D ;
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+
+
+
+
